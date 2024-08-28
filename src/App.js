@@ -1,11 +1,11 @@
 import './App.css';
-import Accordion from './Components/Accordian';
+import LoadMoreComp from './Components/Accordian/loadMore';
 
 function App() {
   return (
     <div className="App">
-       {/* {Accordion Componet}  */}
-       <Accordion/>
+       {/* Load more comp exmaple */}
+       <LoadMoreComp/>
     </div>
   );
 }
